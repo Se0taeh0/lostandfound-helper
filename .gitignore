@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables (API 키 등 절대 커밋 금지)
+.env
+.env.local
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data (용량 크면 데이터는 커밋 안 하고 별도 관리 추천)
+# data/*.csv
+
+# Model checkpoints
+*.pt
+*.pth
+*.h5
+*.pkl
+
+# Logs
+*.log
